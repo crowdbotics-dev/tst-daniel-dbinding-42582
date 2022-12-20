@@ -1,6 +1,5 @@
-import { Text } from "react-native"
 import React from "react"
-import { View, StyleSheet } from "react-native"
+import { Text, View, StyleSheet, ImageBackground } from "react-native"
 
 const Untitled1 = () => {
   return (
