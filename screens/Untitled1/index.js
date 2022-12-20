@@ -1,14 +1,9 @@
-import React from "react"
-import { Text, View, StyleSheet, ImageBackground } from "react-native"
+import React from "react";
+import { Text, View, StyleSheet, ImageBackground } from "react-native";
 
 const Untitled1 = () => {
-  return (
-    <View style={_styles.fjEOvsFL}>
-      <ImageBackground
-        style={_styles.DYkKDHvf}
-        source={require("./developer.png")}
-        resizeMode="cover"
-      ></ImageBackground>
+  return <View style={_styles.fjEOvsFL}>
+      <ImageBackground style={_styles.DYkKDHvf} source={"./favicon.ico"} resizeMode="cover"></ImageBackground>
       <Text style={_styles.PJgvWxZM}>User Name</Text>
       <Text style={_styles.CeRlBvvc}>email address placeholder</Text>
       <Text style={_styles.GUbEJYRK}>Registered Date</Text>
@@ -17,11 +12,10 @@ const Untitled1 = () => {
       <Text style={_styles.BMKaXcOJ}>registered date placeholder</Text>
       <Text style={_styles.TNNwtvOF}>Total Users Count: placeholder</Text>
       <View style={_styles.fxFcHUJX}></View>
-    </View>
-  )
-}
+    </View>;
+};
 
-export default Untitled1
+export default Untitled1;
 
 const _styles = StyleSheet.create({
   fjEOvsFL: {
@@ -143,4 +137,4 @@ const _styles = StyleSheet.create({
     borderRadius: 0,
     color: "#777777"
   }
-})
+});
