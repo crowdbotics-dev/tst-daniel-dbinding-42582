@@ -3,7 +3,7 @@ import { Text, View, StyleSheet, ImageBackground } from "react-native";
 
 const Untitled1 = () => {
   return <View style={_styles.fjEOvsFL}>
-      <ImageBackground style={_styles.DYkKDHvf} source={"./favicon.ico"} resizeMode="cover"></ImageBackground>
+      <ImageBackground style={_styles.DYkKDHvf} source={require("./developer.png")} resizeMode="cover"></ImageBackground>
       <Text style={_styles.PJgvWxZM}>User Name</Text>
       <Text style={_styles.CeRlBvvc}>email address placeholder</Text>
       <Text style={_styles.GUbEJYRK}>Registered Date</Text>
