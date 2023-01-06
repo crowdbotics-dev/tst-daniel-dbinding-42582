@@ -146,7 +146,7 @@ const _styles = StyleSheet.create({
     height: 62
   },
   ngbRGvcP: {
-    width: 107,
-    height: 62
+    width: 129,
+    height: 111
   }
 });
