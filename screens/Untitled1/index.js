@@ -3,7 +3,7 @@ import { Text, View, StyleSheet, ImageBackground } from "react-native";
 
 const Untitled1 = () => {
   return <View style={_styles.fjEOvsFL}>
-      <ImageBackground style={_styles.DYkKDHvf} source={require("./developer.png")} resizeMode="cover"></ImageBackground>
+      
       <Text style={_styles.PJgvWxZM}>User Name</Text>
       <Text style={_styles.CeRlBvvc}>email address placeholder</Text>
       <Text style={_styles.GUbEJYRK}>Registered Date</Text>
@@ -12,7 +12,7 @@ const Untitled1 = () => {
       <Text style={_styles.BMKaXcOJ}>registered date placeholder</Text>
       <Text style={_styles.TNNwtvOF}>Total Users Count: placeholder</Text>
       <View style={_styles.fxFcHUJX}></View>
-    </View>;
+    <ImageBackground style={_styles.iKWsoTsb} source={require("./developer.png")} resizeMode="cover"></ImageBackground></View>;
 };
 
 export default Untitled1;
@@ -136,5 +136,9 @@ const _styles = StyleSheet.create({
     backgroundColor: "#000000",
     borderRadius: 0,
     color: "#777777"
+  },
+  iKWsoTsb: {
+    width: 107,
+    height: 62
   }
 });
