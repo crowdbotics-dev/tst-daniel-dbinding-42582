@@ -12,7 +12,7 @@ const Untitled1 = () => {
       <Text style={_styles.BMKaXcOJ}>registered date placeholder</Text>
       <Text style={_styles.TNNwtvOF}>Total Users Count: placeholder</Text>
       <View style={_styles.fxFcHUJX}></View>
-    <ImageBackground style={_styles.ngbRGvcP} source={require("./source_code1600.png")} resizeMode="cover"></ImageBackground></View>;
+    <ImageBackground style={_styles.ngbRGvcP} source={require("./developer.png")} resizeMode="cover"></ImageBackground></View>;
 };
 
 export default Untitled1;
